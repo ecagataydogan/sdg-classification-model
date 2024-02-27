@@ -1,5 +1,7 @@
 # Document classification model for Sustainable Development goals 
 
+I created a model that can predict which sustainable development goal an article might be labelled with.
+
 ## Prepare dataset.
 
 You can use Scival to obtain Scopus EIDs of tagged articles. Then, you should get the title, abstract and keywords of the articles using these EIDs. You can make requests to Scopus API using the pybliometrics library.
